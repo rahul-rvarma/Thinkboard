@@ -1,0 +1,21 @@
+{
+  "name": "thinkboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix frontend && npm install --prefix backend && npm run build --prefix frontend && npm run build --prefix backend",
+    "start": "npm run start --prefix backend && npm run preview --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahul-rvarma/Thinkboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahul-rvarma/Thinkboard/issues"
+  },
+  "homepage": "https://github.com/rahul-rvarma/Thinkboard#readme",
+  "description": ""
+}

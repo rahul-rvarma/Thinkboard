@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/server.js",
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "build": "echo \"No build step for backend\""
   },
   "type": "module",
   "keywords": [],
@@ -14,11 +15,14 @@
   "dependencies": {
     "@upstash/ratelimit": "^2.0.5",
     "@upstash/redis": "^1.34.9",
+    "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^4.18.2",
-    "mongoose": "^7.0.3"
+    "mongoose": "^7.0.3",
+    "thinkboard": "file:.."
   },
   "devDependencies": {
+    "daisyui": "^4.12.24",
     "nodemon": "^3.1.11"
   }
 }
