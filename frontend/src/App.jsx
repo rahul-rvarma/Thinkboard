@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router";
 
-import HomePage from "./pages/homepage";
+import HomePage from "./pages/HomePage";
 import CreatePage from "./pages/CreatePage";
 import NoteDetailPage from "./pages/NoteDetailpage";
 
