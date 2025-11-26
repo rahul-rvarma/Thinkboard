@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router";
 
 import HomePage from "./pages/homepage";
 import CreatePage from "./pages/CreatePage";
-import NoteDetailPage from "./pages/NoteDetailPage";
+import NoteDetailPage from "./pages/NoteDetailpage";
 
 const App = () => {
   return (
